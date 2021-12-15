@@ -1,7 +1,7 @@
 {
   "name": "driving-school-schedule",
   "version": "0.0.0",
-  "homepage": "https://aikosogabe.github.io/driving-school-schedule",
+  "homepage": "https://aikosogabe.github.io/driving-school-schedule/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
