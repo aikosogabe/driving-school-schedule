@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: "14"
           cache: yarn
-      - run: yarn && tsc && vite build --base=/driving-school-schedule/
+      - run: yarn && yarn build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
