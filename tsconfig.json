@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite/client", "@emotion/react/types/css-prop"]
+    "types": ["node", "vite/client", "@emotion/react/types/css-prop"]
   },
   "include": ["./src"]
 }

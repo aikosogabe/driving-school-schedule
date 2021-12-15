@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
