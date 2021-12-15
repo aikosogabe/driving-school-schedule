@@ -8,4 +8,5 @@ export default defineConfig({
     jsxFactory: "jsx",
     jsxInject: `import { jsx } from "@emotion/react"`,
   },
+  base: "driving-school-schedule",
 });
